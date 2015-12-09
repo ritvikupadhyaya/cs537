@@ -1,0 +1,456 @@
+/afs/cs.wisc.edu/p/course/cs537-dusseau/ta/tools
+starting build
+
+**********************************************************************
+
+Test build
+build project using make
+
+**********************************************************************
+Trying to clean project using make clean
+make clean
+make: *** No rule to make target `clean'.  Stop.
+Trying to build project using make
+make
+make: *** No targets specified and no makefile found.  Stop.
+Trying to build using gcc
+gcc -O -Wall -o rangesort rangesort.c -I/afs/cs.wisc.edu/p/course/cs537-dusseau/ta/tests/1a-evaluation
+
+
+test build PASSED
+ (build project using make)
+
+starting contest
+
+**********************************************************************
+
+Test contest
+contest
+
+**********************************************************************
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-evaluation/generate -s 0 -n 1000000 -o /tmp/tmpWvDllV/p/infile
+range [ 1442 , 428024844 ] includes roughly 20.0 % of the input keys
+Running rangesort with range [1442, 428024844]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 428024844
+Rangesort completed in 0.196165084839 seconds
+Checking output
+Running rangesort with range [1442, 428024844]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 428024844
+Rangesort completed in 0.198048114777 seconds
+Checking output
+Running rangesort with range [1442, 428024844]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 428024844
+Rangesort completed in 0.196513175964 seconds
+Checking output
+Running rangesort with range [1442, 428024844]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 428024844
+Rangesort completed in 0.198745965958 seconds
+Checking output
+Running rangesort with range [1442, 428024844]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 428024844
+Rangesort completed in 0.197125196457 seconds
+Checking output
+Running rangesort with range [1442, 428024844]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 428024844
+Rangesort completed in 0.196990966797 seconds
+Checking output
+Running rangesort with range [1442, 428024844]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 428024844
+Rangesort completed in 0.196699857712 seconds
+Checking output
+Running rangesort with range [1442, 428024844]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 428024844
+Rangesort completed in 0.196943998337 seconds
+Checking output
+Running rangesort with range [1442, 428024844]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 428024844
+Rangesort completed in 0.196640014648 seconds
+Checking output
+Running rangesort with range [1442, 428024844]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 428024844
+Rangesort completed in 0.197037935257 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-evaluation/generate -s 1 -n 1000000 -o /tmp/tmpWvDllV/p/infile
+range [ 1164172107 , 1592959361 ] includes roughly 20.0001 % of the input keys
+Running rangesort with range [1164172107, 1592959361]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1164172107 -h 1592959361
+Rangesort completed in 0.200251102448 seconds
+Checking output
+Running rangesort with range [1164172107, 1592959361]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1164172107 -h 1592959361
+Rangesort completed in 0.200296163559 seconds
+Checking output
+Running rangesort with range [1164172107, 1592959361]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1164172107 -h 1592959361
+Rangesort completed in 0.199503183365 seconds
+Checking output
+Running rangesort with range [1164172107, 1592959361]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1164172107 -h 1592959361
+Rangesort completed in 0.202139139175 seconds
+Checking output
+Running rangesort with range [1164172107, 1592959361]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1164172107 -h 1592959361
+Rangesort completed in 0.199645042419 seconds
+Checking output
+Running rangesort with range [1164172107, 1592959361]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1164172107 -h 1592959361
+Rangesort completed in 0.202366113663 seconds
+Checking output
+Running rangesort with range [1164172107, 1592959361]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1164172107 -h 1592959361
+Rangesort completed in 0.202016115189 seconds
+Checking output
+Running rangesort with range [1164172107, 1592959361]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1164172107 -h 1592959361
+Rangesort completed in 0.199481010437 seconds
+Checking output
+Running rangesort with range [1164172107, 1592959361]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1164172107 -h 1592959361
+Rangesort completed in 0.199464082718 seconds
+Checking output
+Running rangesort with range [1164172107, 1592959361]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1164172107 -h 1592959361
+Rangesort completed in 0.202092885971 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-evaluation/generate -s 2 -n 1000000 -o /tmp/tmpWvDllV/p/infile
+range [ 1405214600 , 1834194681 ] includes roughly 20.0001 % of the input keys
+Running rangesort with range [1405214600, 1834194681]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1405214600 -h 1834194681
+Rangesort completed in 0.198195934296 seconds
+Checking output
+Running rangesort with range [1405214600, 1834194681]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1405214600 -h 1834194681
+Rangesort completed in 0.198354005814 seconds
+Checking output
+Running rangesort with range [1405214600, 1834194681]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1405214600 -h 1834194681
+Rangesort completed in 0.199058055878 seconds
+Checking output
+Running rangesort with range [1405214600, 1834194681]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1405214600 -h 1834194681
+Rangesort completed in 0.198970079422 seconds
+Checking output
+Running rangesort with range [1405214600, 1834194681]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1405214600 -h 1834194681
+Rangesort completed in 0.198402881622 seconds
+Checking output
+Running rangesort with range [1405214600, 1834194681]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1405214600 -h 1834194681
+Rangesort completed in 0.19900393486 seconds
+Checking output
+Running rangesort with range [1405214600, 1834194681]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1405214600 -h 1834194681
+Rangesort completed in 0.198519945145 seconds
+Checking output
+Running rangesort with range [1405214600, 1834194681]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1405214600 -h 1834194681
+Rangesort completed in 0.199014902115 seconds
+Checking output
+Running rangesort with range [1405214600, 1834194681]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1405214600 -h 1834194681
+Rangesort completed in 0.199243068695 seconds
+Checking output
+Running rangesort with range [1405214600, 1834194681]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1405214600 -h 1834194681
+Rangesort completed in 0.199955940247 seconds
+Checking output
+best   0.196165084839
+median 0.198987007141
+worst  0.202366113663
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-evaluation/generate -s 0 -n 1000000 -o /tmp/tmpWvDllV/p/infile
+range [ 100922943 , 1174726422 ] includes roughly 50.0001 % of the input keys
+Running rangesort with range [100922943, 1174726422]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 100922943 -h 1174726422
+Rangesort completed in 0.293761968613 seconds
+Checking output
+Running rangesort with range [100922943, 1174726422]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 100922943 -h 1174726422
+Rangesort completed in 0.294015169144 seconds
+Checking output
+Running rangesort with range [100922943, 1174726422]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 100922943 -h 1174726422
+Rangesort completed in 0.294212818146 seconds
+Checking output
+Running rangesort with range [100922943, 1174726422]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 100922943 -h 1174726422
+Rangesort completed in 0.29287314415 seconds
+Checking output
+Running rangesort with range [100922943, 1174726422]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 100922943 -h 1174726422
+Rangesort completed in 0.29416012764 seconds
+Checking output
+Running rangesort with range [100922943, 1174726422]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 100922943 -h 1174726422
+Rangesort completed in 0.292311906815 seconds
+Checking output
+Running rangesort with range [100922943, 1174726422]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 100922943 -h 1174726422
+Rangesort completed in 0.294419050217 seconds
+Checking output
+Running rangesort with range [100922943, 1174726422]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 100922943 -h 1174726422
+Rangesort completed in 0.293401956558 seconds
+Checking output
+Running rangesort with range [100922943, 1174726422]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 100922943 -h 1174726422
+Rangesort completed in 0.292303085327 seconds
+Checking output
+Running rangesort with range [100922943, 1174726422]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 100922943 -h 1174726422
+Rangesort completed in 0.293204069138 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-evaluation/generate -s 1 -n 1000000 -o /tmp/tmpWvDllV/p/infile
+range [ 1442 , 1073150257 ] includes roughly 50.0 % of the input keys
+Running rangesort with range [1442, 1073150257]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 1073150257
+Rangesort completed in 0.29389500618 seconds
+Checking output
+Running rangesort with range [1442, 1073150257]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 1073150257
+Rangesort completed in 0.293299913406 seconds
+Checking output
+Running rangesort with range [1442, 1073150257]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 1073150257
+Rangesort completed in 0.293617963791 seconds
+Checking output
+Running rangesort with range [1442, 1073150257]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 1073150257
+Rangesort completed in 0.29300904274 seconds
+Checking output
+Running rangesort with range [1442, 1073150257]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 1073150257
+Rangesort completed in 0.293640136719 seconds
+Checking output
+Running rangesort with range [1442, 1073150257]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 1073150257
+Rangesort completed in 0.292618989944 seconds
+Checking output
+Running rangesort with range [1442, 1073150257]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 1073150257
+Rangesort completed in 0.293205022812 seconds
+Checking output
+Running rangesort with range [1442, 1073150257]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 1073150257
+Rangesort completed in 0.293508052826 seconds
+Checking output
+Running rangesort with range [1442, 1073150257]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 1073150257
+Rangesort completed in 0.291953086853 seconds
+Checking output
+Running rangesort with range [1442, 1073150257]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 1442 -h 1073150257
+Rangesort completed in 0.29218006134 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-evaluation/generate -s 2 -n 1000000 -o /tmp/tmpWvDllV/p/infile
+range [ 238294278 , 1310850287 ] includes roughly 50.0001 % of the input keys
+Running rangesort with range [238294278, 1310850287]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 238294278 -h 1310850287
+Rangesort completed in 0.304229021072 seconds
+Checking output
+Running rangesort with range [238294278, 1310850287]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 238294278 -h 1310850287
+Rangesort completed in 0.298622846603 seconds
+Checking output
+Running rangesort with range [238294278, 1310850287]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 238294278 -h 1310850287
+Rangesort completed in 0.306811094284 seconds
+Checking output
+Running rangesort with range [238294278, 1310850287]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 238294278 -h 1310850287
+Rangesort completed in 0.309296131134 seconds
+Checking output
+Running rangesort with range [238294278, 1310850287]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 238294278 -h 1310850287
+Rangesort completed in 0.294798851013 seconds
+Checking output
+Running rangesort with range [238294278, 1310850287]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 238294278 -h 1310850287
+Rangesort completed in 0.293957948685 seconds
+Checking output
+Running rangesort with range [238294278, 1310850287]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 238294278 -h 1310850287
+Rangesort completed in 0.292694091797 seconds
+Checking output
+Running rangesort with range [238294278, 1310850287]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 238294278 -h 1310850287
+Rangesort completed in 0.293980836868 seconds
+Checking output
+Running rangesort with range [238294278, 1310850287]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 238294278 -h 1310850287
+Rangesort completed in 0.292923927307 seconds
+Checking output
+Running rangesort with range [238294278, 1310850287]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 238294278 -h 1310850287
+Rangesort completed in 0.293996095657 seconds
+Checking output
+best   0.291953086853
+median 0.293629050255
+worst  0.309296131134
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-evaluation/generate -s 0 -n 1000000 -o /tmp/tmpWvDllV/p/infile
+range [ 429044348 , 2147478980 ] includes roughly 80.0 % of the input keys
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.393620967865 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.391103982925 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.393270015717 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.39103603363 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.39389705658 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.392335891724 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.395875930786 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.392665863037 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.393977880478 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.392064094543 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-evaluation/generate -s 1 -n 1000000 -o /tmp/tmpWvDllV/p/infile
+range [ 429044348 , 2147478980 ] includes roughly 80.0 % of the input keys
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.397755146027 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.397503852844 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.408951997757 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.414233922958 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.398269891739 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.413785934448 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.410872936249 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.398077964783 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.394711971283 seconds
+Checking output
+Running rangesort with range [429044348, 2147478980]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 429044348 -h 2147478980
+Rangesort completed in 0.401433944702 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-evaluation/generate -s 2 -n 1000000 -o /tmp/tmpWvDllV/p/infile
+range [ 246236108 , 1962023177 ] includes roughly 80.0001 % of the input keys
+Running rangesort with range [246236108, 1962023177]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 246236108 -h 1962023177
+Rangesort completed in 0.402678966522 seconds
+Checking output
+Running rangesort with range [246236108, 1962023177]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 246236108 -h 1962023177
+Rangesort completed in 0.391819000244 seconds
+Checking output
+Running rangesort with range [246236108, 1962023177]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 246236108 -h 1962023177
+Rangesort completed in 0.394147872925 seconds
+Checking output
+Running rangesort with range [246236108, 1962023177]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 246236108 -h 1962023177
+Rangesort completed in 0.401156902313 seconds
+Checking output
+Running rangesort with range [246236108, 1962023177]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 246236108 -h 1962023177
+Rangesort completed in 0.399565935135 seconds
+Checking output
+Running rangesort with range [246236108, 1962023177]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 246236108 -h 1962023177
+Rangesort completed in 0.40039396286 seconds
+Checking output
+Running rangesort with range [246236108, 1962023177]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 246236108 -h 1962023177
+Rangesort completed in 0.407474040985 seconds
+Checking output
+Running rangesort with range [246236108, 1962023177]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 246236108 -h 1962023177
+Rangesort completed in 0.398213863373 seconds
+Checking output
+Running rangesort with range [246236108, 1962023177]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 246236108 -h 1962023177
+Rangesort completed in 0.398549079895 seconds
+Checking output
+Running rangesort with range [246236108, 1962023177]
+/tmp/tmpWvDllV/p/rangesort -i /tmp/tmpWvDllV/p/infile -o /tmp/tmpWvDllV/p/outfile -l 246236108 -h 1962023177
+Rangesort completed in 0.413207054138 seconds
+Checking output
+best   0.39103603363
+median 0.397916555405
+worst  0.414233922958
+
+
+
+
+**********************************************************************
+Evaluation Summary: 
+The performance on three ranges: 
+[0.19898700714111328, 0.2936290502548218, 0.3979165554046631] 
+
+Final result (average): 
+0.296844204267 
+
+Score in the large input part is: 
+18 / 18 
+
+
+
+test contest PASSED
+ (contest)
+
+**********************************************************************
+Summary:
+test build PASSED
+ (build project using make)
+
+test contest PASSED
+ (contest)
+
+Passed 2 of 2 tests.
+Overall 2 of 2
